@@ -1,8 +1,8 @@
-# Sum of first n natrual numbers (using formula)
+# Sum of first n natrual numbers (using formula) fastest 
 def sum_of_n(n):
     return n * (n+1)/2
 print (sum_of_n(5))
-# Sum of first n natural numbers (using for loop)
+# Sum of first n natural numbers (using for loop) slower
 n= 5
 a=0
 for i in range (n+1):
@@ -10,7 +10,7 @@ for i in range (n+1):
 
 print(a)
 
-# Sum of first n natural numbers (using recursion)
+# Sum of first n natural numbers (using recursion) slowest and riskiest 
 def sum(n):
     if n == 0:
         return 0
