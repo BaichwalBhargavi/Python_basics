@@ -1,3 +1,7 @@
+# Sum of first n natrual numbers (using formula)
+def sum_of_n(n):
+    return n * (n+1)/2
+print (sum_of_n(5))
 # Sum of first n natural numbers (using for loop)
 n= 5
 a=0
